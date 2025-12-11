@@ -34,7 +34,7 @@ class Day3Test {
         String content = lines.collect(Collectors.joining("\n"));
         lines.close();
 
-        assertEquals(expected, new Day3().play(content));
+        assertEquals(expected, new Day3().partTwo(content));
     }
 
 

@@ -7,7 +7,7 @@ import java.util.List;
 public class Day3 {
     public static final int JOLTAGE_LENGTH = 12;
 
-    public long play(String input) {
+    public long partTwo(String input) {
         String[] lines = input.split("\\r?\\n");
         long outputJoltage = 0;
         for (String line : lines) {

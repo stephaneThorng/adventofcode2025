@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Day2 {
-    public long play(String input) {
+    public long partTwo(String input) {
         long result = 0;
         String[] ranges = input.split(",");
         for (String range : ranges) {

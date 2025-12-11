@@ -33,6 +33,6 @@ class Day2Test {
         String content = lines.collect(Collectors.joining("\r\n"));
         lines.close();
 
-        assertEquals(expected, new Day2().play(content));
+        assertEquals(expected, new Day2().partTwo(content));
     }
 }

@@ -4,7 +4,7 @@ public class Day1 {
     public static final int MIN = 0;
     public static final int MAX = 99;
 
-    public int play(String input) {
+    public int partTwo(String input) {
         String[] lines = input.split("\\r?\\n");
         int offset = 50;
         int password = 0;
